@@ -44,7 +44,7 @@ spec:
           command: ["/bin/sh"]
           args:
             - -c
-            - >-
+            - |
                 if [ ! -f /models/model.ckpt ]; then
                   wget -nc {{ .Values.models.sd14 }} -O /models/model.ckpt;
                 fi
