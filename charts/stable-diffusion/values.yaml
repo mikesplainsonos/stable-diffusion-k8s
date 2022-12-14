@@ -95,8 +95,7 @@ autoscaling:
   targetCPUUtilizationPercentage: 80
   # targetMemoryUtilizationPercentage: 80
 
-nodeSelector: 
-  nvidia.com/gpu.present: "true"
+nodeSelector: []
 
 tolerations: []
 
